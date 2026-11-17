@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-page-mvs1zops-x68co4fbd">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.6">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="exe-pass-score" content="5">
+<link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<title>2023 | Problemas de selectividad</title>
+<link rel="icon" type="image/x-icon" href="../theme/img/favicon.ico">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><script src="../theme/z-custom-effects.js"> </script><link rel="stylesheet" href="../theme/colores.css"><link rel="stylesheet" href="../theme/comic.css"><link rel="stylesheet" href="../theme/ejercicio.css"><link rel="stylesheet" href="../theme/libreta.css"><link rel="stylesheet" href="../theme/navegacion.css"><link rel="stylesheet" href="../theme/nota-azul.css"><link rel="stylesheet" href="../theme/retroalimentacion.css"><link rel="stylesheet" href="../theme/style.css">
+<script src="../libs/exe_math/tex-mml-svg.js"> </script>
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mvs1zops-x68co4fbd" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">2021</a>
+</li>
+<li> <a href="../html/2022.html" class="no-ch">2022</a>
+</li>
+<li class="active"> <a href="../html/2023.html" class="active no-ch">2023</a>
+</li>
+<li> <a href="../html/2024.html" class="no-ch">2024</a>
+</li>
+<li> <a href="../html/2025.html" class="no-ch">2025</a>
+</li>
+<li> <a href="../html/2026.html" class="no-ch">2026</a>
+</li>
+</ul>
+</nav><main id="page-mvs1zops-x68co4fbd" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">Problemas de selectividad</p>
+<p class="package-subtitle">Matrices, determinantes y sistemas</p></div>
+<div class="page-header"><h1 class="page-title">2023</h1></div>
+</header><div id="page-content-page-mvs1zops-x68co4fbd" class="page-content">
+<article id="block-mvs1zopt-pb3176ekz" class="box ejercicio-custom-verde">
+<header class="box-head no-icon">
+<h1 class="box-title">Junio. Ejercicio 5.</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mvs1zopt-1lhx0okrq" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mvs1zopt-1lhx0okrq&quot;}">
+<p>Una marca de vehículos ha vendido este mes coches de tres colores: blancos, negros y rojos. El \(60\%\) de los coches blancos más el \(50\%\) de los coches negros representan el \(30\%\) de los coches vendidos. El \(20\%\) de los coches blancos junto con el \(60\%\) de los coches negros y el \( 60\%\) de los coches rojos representan la mitad de los coches vendidos. Se han vendido \(100\) coches negros más que blancos.<br />Determina el número de coches vendidos de cada color.</p><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Solución" /></div><div class="feedback js-feedback js-hidden"><div class="exe-layout-2-cols exe-clear" style="font-family: Arial, sans-serif; color: #333;">
+<div style="background-color: #fce4ec; padding: 15px; border-left: 5px solid #e91e63; margin-bottom: 20px; border-radius: 4px;">
+<p style="margin-top: 10px;">Definimos las incógnitas según los colores de los coches:</p>
+<ul style="list-style-type: none; margin-left: 10px; padding: 0;">
+<li><strong>\( x \):</strong> coches blancos</li>
+<li><strong>\( y \):</strong> coches negros</li>
+<li><strong>\( z \):</strong> coches rojos</li>
+</ul>
+<p>El total de coches vendidos será la suma de los tres: <strong>\( x + y + z \)</strong>.</p>
+</div>
+<div style="border: 1px solid #ddd; padding: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+<h4 style="border-bottom: 2px solid #e91e63; padding-bottom: 10px; color: #c2185b;">1. Planteamiento de las ecuaciones</h4>
+<p>Traducimos los porcentajes del enunciado a formato decimal para construir el sistema:</p>
+<ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 15px;">
+<li>Primera condición (30% del total): \( 0.6x + 0.5y = 0.3(x + y + z) \)</li>
+<li>Segunda condición (mitad del total): \( 0.2x + 0.6y + 0.6z = 0.5(x + y + z) \)</li>
+<li>Tercera condición (100 negros más que blancos): \( y = x + 100 \)</li>
+</ul>
+<h4 style="border-bottom: 2px solid #e91e63; padding-bottom: 10px; color: #c2185b; margin-top: 30px;">2. Simplificación del sistema</h4>
+<p>Operamos las dos primeras ecuaciones agrupando las incógnitas a la izquierda y multiplicando por 10 para eliminar decimales:</p>
+<p style="text-align: center;">\( 0.6x + 0.5y - 0.3x - 0.3y - 0.3z = 0 \implies 0.3x + 0.2y - 0.3z = 0 \implies \mathbf{3x + 2y - 3z = 0} \)</p>
+<p style="text-align: center;">\( 0.2x + 0.6y + 0.6z - 0.5x - 0.5y - 0.5z = 0 \implies -0.3x + 0.1y + 0.1z = 0 \implies \mathbf{-3x + y + z = 0} \)</p>
+<p>El sistema definitivo queda así:</p>
+<p style="text-align: center;">\( \begin{cases} 3x + 2y - 3z = 0 \\ -3x + y + z = 0 \\ y = x + 100 \end{cases} \)</p>
+<h4 style="border-bottom: 2px solid #e91e63; padding-bottom: 10px; color: #c2185b; margin-top: 30px;">3. Resolución por sustitución</h4>
+<p>De la segunda ecuación despejamos \( z \):</p>
+<p style="text-align: center;">\( \mathbf{z = 3x - y} \)</p>
+<p>Sustituimos esta \( z \) en la primera ecuación:</p>
+<p style="text-align: center;">\( 3x + 2y - 3(3x - y) = 0 \) <br />\( 3x + 2y - 9x + 3y = 0 \) <br />\( \mathbf{-6x + 5y = 0} \)</p>
+<p>Ahora, introducimos la tercera ecuación (\( y = x + 100 \)):</p>
+<p style="text-align: center;">\( -6x + 5(x + 100) = 0 \) <br />\( -6x + 5x + 500 = 0 \) <br />\( -x = -500 \implies \mathbf{x = 500} \)</p>
+<p>Calculamos el resto de variables con el valor de \( x \):</p>
+<ul style="list-style-type: none; padding: 0;">
+<li><strong>Coches negros (\( y \)):</strong> \( y = 500 + 100 \implies \mathbf{y = 600} \)</li>
+<li><strong>Coches rojos (\( z \)):</strong> \( z = 3(500) - 600 = 1500 - 600 \implies \mathbf{z = 900} \)</li>
+</ul>
+<p style="text-align: center; font-weight: bold; font-size: 1.2em; color: #880e4f; margin-top: 25px; padding: 15px; border: 2px solid #f48fb1; border-radius: 5px; background-color: #fce4ec;">Solución: Se han vendido 500 coches blancos, 600 negros y 900 rojos.</p>
+</div>
+</div>
+<p>Para ver la solución de emestrada, pulsa en la imagen: <a href="../content/resources/MII-T2-2023_1.pdf" target="_blank" rel="noopener"><img src="../content/resources/emestrada.png" alt="" width="183" height="70" style="vertical-align: middle;" /></a></p></div>
+</div>
+</div>
+</article><article id="block-mvs1zopt-behnb7bh9" class="box ejercicio-custom-verde">
+<header class="box-head no-icon">
+<h1 class="box-title">Junio. Ejercicio 6.</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mvs1zopt-e2t3yxm1h" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mvs1zopt-e2t3yxm1h&quot;}">
+<p>Considera las matrices: \( A = \left( \begin{array}{rrr} 0 & 0 & m \\ m & 0 & 0 \\ 0 & m & 0 \end{array} \right) \quad \text{y} \quad B = \left( \begin{array}{rrr} 1 & 0 & 0 \\ 0 & 0 & 1 \\ 0 & 1 & 0 \end{array} \right) \)</p>
+<p>a) Determina para qué valores de \(m\) existe la inversa de la matriz \(A\).</p>
+<p>b) Para todo \(m \neq -1\), resuelve, si es posible, la ecuación \(A·X+X=B\)</p><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Solución" /></div><div class="feedback js-feedback js-hidden"><div class="exe-layout-2-cols exe-clear" style="font-family: Arial, sans-serif; color: #333;">
+<div style="border: 1px solid #ddd; padding: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+<h4 style="border-bottom: 2px solid #ffc107; padding-bottom: 10px; color: #ff6f00;">a) Valores de \( m \) para inversa de \(A\)</h4>
+<p>Calculamos el determinante de \( A \) mediante Sarrus:</p>
+<p style="text-align: center;">\( |A| = 0 + 0 + (m \cdot m \cdot m) - (0 + 0 + 0) = m^3 \)</p>
+<p>Para que exista la inversa \( A^{-1} \), el determinante debe ser no nulo (\( |A| \neq 0 \)).</p>
+<p style="text-align: center;">\( m^3 \neq 0 \implies m \neq 0 \)</p>
+<p style="background-color: #fffde7; padding: 10px; border-radius: 4px; text-align: center; color: #e65100; border: 1px dashed #ffb74d;"><strong>Existe \( A^{-1} \) para todo \( m \neq 0 \).</strong></p>
+<h4 style="border-bottom: 2px solid #ffc107; padding-bottom: 10px; color: #ff6f00; margin-top: 30px;">b) Ecuación \( A X + X = B \)</h4>
+<p><strong>1. Despejar X:</strong></p>
+<p>Sacamos factor común \( X \) por la derecha (recordando que \( X = I \cdot X \)):</p>
+<p style="text-align: center;">\( (A + I) \cdot X = B \)</p>
+<p>Multiplicamos por la inversa de \( (A+I) \) por la izquierda:</p>
+<p style="text-align: center;">\( X = (A+I)^{-1} \cdot B \)</p>
+<p><strong>2. Calcular la inversa de \( (A+I) \):</strong></p>
+<p>Definimos la matriz suma \( C = A + I \):</p>
+<p style="text-align: center;">\( C = \left( \begin{array}{rrr} 1 & 0 & m \\ m & 1 & 0 \\ 0 & m & 1 \end{array} \right) \)</p>
+<p>Su determinante es \( |C| = 1 + m^3 \). Como el enunciado dice que \( m \neq -1 \), entonces \( 1+m^3 \neq 0 \) y existe inversa.</p>
+<p>Calculamos la Adjunta de C y trasponemos:</p>
+<p style="text-align: center;">\( \text{Adj}(C) = \left( \begin{array}{rrr} 1 & -m & m^2 \\ m^2 & 1 & -m \\ -m & m^2 & 1 \end{array} \right) \quad \xrightarrow{\text{Traspuesta}} \quad \text{Adj}(C)^t = \left( \begin{array}{rrr} 1 & m^2 & -m \\ -m & 1 & m^2 \\ m^2 & -m & 1 \end{array} \right) \)</p>
+<p>Por tanto: \( (A+I)^{-1} = \dfrac{1}{1+m^3} \left( \begin{array}{rrr} 1 & m^2 & -m \\ -m & 1 & m^2 \\ m^2 & -m & 1 \end{array} \right) \)</p>
+<p><strong>3. Multiplicación final:</strong></p>
+<p>Calculamos \( X = (A+I)^{-1} \cdot B \). Multiplicar por B intercambia las columnas 2 y 3:</p>
+<p style="text-align: center;">\( X = \dfrac{1}{1+m^3} \left( \begin{array}{rrr} 1 & -m & m^2 \\ -m & m^2 & 1 \\ m^2 & 1 & -m \end{array} \right) \)</p>
+<p>Multiplicamos la fracción por cada elemento de la matriz:</p>
+<p style="text-align: center; font-weight: bold; font-size: 1.1em; color: #bf360c; margin-top: 20px; padding: 15px; border: 2px solid #ffe0b2; border-radius: 5px;">Solución: \( X = \left( \begin{array}{ccc} \frac{1}{1+m^3} & \frac{-m}{1+m^3} & \frac{m^2}{1+m^3} \\ \frac{-m}{1+m^3} & \frac{m^2}{1+m^3} & \frac{1}{1+m^3} \\ \frac{m^2}{1+m^3} & \frac{1}{1+m^3} & \frac{-m}{1+m^3} \end{array} \right) \)</p>
+</div>
+</div>
+<p>Para ver la solución de emestrada, pulsa en la imagen: <a href="../content/resources/MII-T1-2023_1.pdf" target="_blank" rel="noopener"><img src="../content/resources/emestrada.png" alt="" width="183" height="70" style="vertical-align: middle;" /></a></p></div>
+</div>
+</div>
+</article><article id="block-mvs1zopt-n895gca13" class="box ejercicio-custom-verde">
+<header class="box-head no-icon">
+<h1 class="box-title">Julio. Ejercicio 5.</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mvs1zopt-je8qpnhkw" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mvs1zopt-je8qpnhkw&quot;}">
+<p>Sea la matriz \( A = \left( \begin{array}{rrr} 1 & 1 & 1 \\ 1 & 1 & 1 \\ 1 & 1 & 1 \end{array} \right) \) e <span style="font-size: 1.05em;">\( I \)</span><span style="font-size: 1.05em;"> la matriz identidad de orden 3.</span></p>
+<p><span style="font-size: 1.05em;">a) Halla los valores de \(m\) para que la matriz \(A-mI\) no tenga inversa.</span></p>
+<p><span style="font-size: 1.05em;">b) Halla \(x\), distinto de cero, para que \(A-xI\) sea la inversa de la matriz \( \dfrac{1}{x}(A-I)\)</span></p><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Solución" /></div><div class="feedback js-feedback js-hidden"><div class="exe-layout-2-cols exe-clear" style="font-family: Arial, sans-serif; color: #333;">
+<div style="border: 1px solid #ddd; padding: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+<h4 style="border-bottom: 2px solid #009688; padding-bottom: 10px; color: #00695c;">a) Valores de \( m \) sin inversa</h4>
+<p>Calculamos el determinante de \( A - mI \):</p>
+<p style="text-align: center;">\( |A-mI| = \left| \begin{array}{ccc} 1-m & 1 & 1 \\ 1 & 1-m & 1 \\ 1 & 1 & 1-m \end{array} \right| \)</p>
+<p>Aplicamos Sarrus:</p>
+<p style="text-align: center;">\[ (1-m)^3 + 1 + 1 - [ (1-m) + (1-m) + (1-m) ]= \]<br />\[ = (1-m)^3 + 2 - 3(1-m) \]</p>
+<p><strong>Desarrollamos completamente:</strong></p>
+<p>Usamos la identidad notable del cubo \( \boxed{(a-b)^3 = a^3 - 3a^2b + 3ab^2 - b^3} \):</p>
+<p style="text-align: center;">\( (1 - 3m + 3m^2 - m^3) + 2 - 3 + 3m \)</p>
+<p>Agrupamos términos (observa que los términos en \( m \) y los números se cancelan):</p>
+<p style="text-align: center;">\[ -m^3 + 3m^2 + (-3m+3m) + (1+2-3) \]<br />\[ \mathbf{-m^3 + 3m^2} \]</p>
+<p><strong>Resolvemos igualando a 0:</strong></p>
+<p style="text-align: center;">\( -m^3 + 3m^2 = 0 \implies m^2(-m + 3) = 0 \)</p>
+<ul style="list-style-type: disc; margin-left: 20px;">
+<li>
+<p>\( m^2 = 0 \implies \mathbf{m=0} \) (raíz doble)</p>
+</li>
+<li>
+<p>\( -m + 3 = 0 \implies \mathbf{m=3} \)</p>
+</li>
+</ul>
+<p style="background-color: #e0f7fa; padding: 10px; border-radius: 4px; text-align: center; color: #006064; margin-top: 15px;">La matriz no tiene inversa para \( m=0 \) y \( m=3 \).</p>
+<h4 style="border-bottom: 2px solid #009688; padding-bottom: 10px; color: #00695c; margin-top: 30px;">b) Hallar \( x \)</h4>
+<p>Para que \( A-xI \) sea la inversa de la otra matriz, su producto debe ser la Identidad:</p>
+<p style="text-align: center;">\( (A - xI) \cdot \left[ \dfrac{1}{x}(A - I) \right] = I \)</p>
+<p>Pasamos la \( x \) multiplicando al otro lado y operamos:</p>
+<p style="text-align: center;">\[ (A - xI) \cdot (A - I) = xI \]<br />\[ A^2 - A - xA + xI = xI \]</p>
+<p>Se simplifica \( xI \) en ambos lados:</p>
+<p style="text-align: center;">\( \mathbf{A^2 - A - xA = 0} \)</p>
+<p>Observamos que \( A^2 = 3A \) (ya que cada elemento es \( 1\cdot 1 + 1\cdot 1 + 1\cdot 1 = 3 \)). Sustituimos:</p>
+<p style="text-align: center;">\[ 3A - A - xA = 0 \]<br />\[ 2A - xA = 0 \implies (2-x)A = 0 \]</p>
+<p style="text-align: center; font-weight: bold; font-size: 1.2em; color: #bf360c; margin-top: 20px; padding: 15px; border: 2px solid #ffccbc; border-radius: 5px;">Solución: \( x = 2 \)</p>
+</div>
+</div>
+<p>Para ver la solución de emestrada, pulsa en la imagen: <a href="../content/resources/MII-T1-2023_2.pdf" target="_blank" rel="noopener"><img src="../content/resources/emestrada.png" alt="" width="183" height="70" style="vertical-align: middle;" /></a></p></div>
+</div>
+</div>
+</article><article id="block-mvs1zopt-i987bifhc" class="box ejercicio-custom-verde">
+<header class="box-head no-icon">
+<h1 class="box-title">Julio. Ejercicio 6.</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mvs1zopt-m1nvtqmzs" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mvs1zopt-m1nvtqmzs&quot;}">
+<p>El dueño de un bar ha comprado refrescos, cerveza y vino por un importe de \(500\) euros sin incluir impuestos. El gasto en vino es de \(60\) euros menos que los gastos en refrescos y cerveza conjuntamente, sin incluir impuestos. Teniendo en cuenta que los impuestos de los refrescos, la cerveza y el vino son el \(6\%\), el \(12\%\) y el \(30\%\), respectivamente, entonces el importe total de la factura incluyendo impuestos ha ascendido a \(592’4\) euros. Calcula el importe, incluyendo impuestos, invertido en cada una de las bebidas.</p><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Solución" /></div><div class="feedback js-feedback js-hidden"><div class="exe-layout-2-cols exe-clear" style="font-family: Arial, sans-serif; color: #333;">
+<div style="background-color: #e0f7fa; padding: 15px; border-left: 5px solid #00bcd4; margin-bottom: 20px; border-radius: 4px;">
+<p style="margin-top: 10px;">Definimos las incógnitas como el <strong>gasto sin impuestos</strong> de cada bebida:</p>
+<ul style="list-style-type: none; margin-left: 10px; padding: 0;">
+<li><strong>\( x \):</strong> importe en refrescos (sin impuestos)</li>
+<li><strong>\( y \):</strong> importe en cerveza (sin impuestos)</li>
+<li><strong>\( z \):</strong> importe en vino (sin impuestos)</li>
+</ul>
+</div>
+<div style="border: 1px solid #ddd; padding: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+<h4 style="border-bottom: 2px solid #00bcd4; padding-bottom: 10px; color: #00838f;">1. Planteamiento de las ecuaciones</h4>
+<p>A partir del enunciado, construimos el sistema:</p>
+<ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 15px;">
+<li>Total sin impuestos (500 €): \( x + y + z = 500 \)</li>
+<li>El vino es 60 € menos que el resto: \( z = (x + y) - 60 \implies x + y - z = 60 \)</li>
+<li>Impuestos (Total de impuestos = 592'4 - 500 = 92'4 €): <br />\( 0.06x + 0.12y + 0.30z = 92.4 \)</li>
+</ul>
+<p>Multiplicamos la tercera ecuación por 100 y la dividimos entre 6 para simplificarla a enteros: \( \mathbf{x + 2y + 5z = 1540} \)</p>
+<p>El sistema queda así:</p>
+<p>\[ \begin{cases} x + y + z = 500 \\ x + y - z = 60 \\ x + 2y + 5z = 1540 \end{cases} \]</p>
+<h4 style="border-bottom: 2px solid #00bcd4; padding-bottom: 10px; color: #00838f; margin-top: 30px;">2. Resolución del sistema</h4>
+<p>Tomamos las dos primeras ecuaciones: \( x+y+z=500 \) y \( x+y=z+60 \). Sustituimos \( (x+y) \) en la primera:</p>
+<p style="text-align: center;">\( (z + 60) + z = 500 \implies 2z = 440 \implies \mathbf{z = 220} \)</p>
+<p>Sustituimos \( z \) en la segunda ecuación para despejar \( x \):</p>
+<p style="text-align: center;">\( x + y = 220 + 60 \implies x + y = 280 \implies \mathbf{x = 280 - y} \)</p>
+<p>Sustituimos todo en la tercera ecuación simplificada (\( x + 2y + 5z = 1540 \)):</p>
+<p style="text-align: center;">\( (280 - y) + 2y + 5(220) = 1540 \) <br />\( 280 + y + 1100 = 1540 \) <br />\( y + 1380 = 1540 \implies \mathbf{y = 160} \)</p>
+<p>Finalmente, calculamos \( x \):</p>
+<p style="text-align: center;">\( x = 280 - 160 \implies \mathbf{x = 120} \)</p>
+<p><em>(Precios sin IVA: Refrescos=120€, Cerveza=160€, Vino=220€)</em></p>
+<h4 style="border-bottom: 2px solid #00bcd4; padding-bottom: 10px; color: #00838f; margin-top: 30px;">3. Cálculo final CON impuestos</h4>
+<p>El problema nos pide expresamente el importe <strong>incluyendo los impuestos</strong>. Multiplicamos la base por \((1 + \text{IVA})\):</p>
+<ul style="list-style-type: none; padding: 0;">
+<li><strong>Refrescos (6%):</strong> \( 120 \cdot 1.06 = \mathbf{127.20} \)€</li>
+<li><strong>Cerveza (12%):</strong> \( 160 \cdot 1.12 = \mathbf{179.20} \)€</li>
+<li><strong>Vino (30%):</strong> \( 220 \cdot 1.30 = \mathbf{286.00} \)€</li>
+</ul>
+<p style="text-align: center; font-weight: bold; font-size: 1.2em; color: #006064; margin-top: 25px; padding: 15px; border: 2px solid #b2ebf2; border-radius: 5px; background-color: #e0f7fa;">Solución: El importe con impuestos fue de 127'20 € en refrescos, 179'20 € en cerveza y 286'00 € en vino.</p>
+</div>
+</div>
+<p>Para ver la solución de emestrada, pulsa en la imagen: <a href="../content/resources/MII-T2-2023_2.pdf" target="_blank" rel="noopener"><img src="../content/resources/emestrada.png" alt="" width="183" height="70" style="vertical-align: middle;" /></a></p></div>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/2022.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/2024.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense" class="cc cc-by-sa"> <p> <span class="license-label">Licencia: </span><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="license">Creative Commons: Reconocimiento - compartir igual 4.0</a></p>
+</div>
+</div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>

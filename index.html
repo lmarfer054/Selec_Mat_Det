@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-index">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.6">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="exe-pass-score" content="5">
+<link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<title>Problemas de selectividad</title>
+<link rel="icon" type="image/x-icon" href="theme/img/favicon.ico">
+<script>document.querySelector("html").classList.add("js");</script><script src="libs/jquery/jquery.min.js"> </script><script src="libs/common_i18n.js"> </script><script src="libs/common.js"> </script><script src="libs/exe_export.js"> </script><script src="libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
+<script src="idevices/text/text.js"></script><link rel="stylesheet" href="idevices/text/text.css">
+<link rel="stylesheet" href="content/css/base.css"><script src="theme/style.js"> </script><script src="theme/z-custom-effects.js"> </script><link rel="stylesheet" href="theme/colores.css"><link rel="stylesheet" href="theme/comic.css"><link rel="stylesheet" href="theme/ejercicio.css"><link rel="stylesheet" href="theme/libreta.css"><link rel="stylesheet" href="theme/navegacion.css"><link rel="stylesheet" href="theme/nota-azul.css"><link rel="stylesheet" href="theme/retroalimentacion.css"><link rel="stylesheet" href="theme/style.css">
+<script src="libs/exe_math/tex-mml-svg.js"> </script>
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mvs1zops-l9kls3f14" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li class="active"> <a href="index.html" class="active main-node no-ch">2021</a>
+</li>
+<li> <a href="html/2022.html" class="no-ch">2022</a>
+</li>
+<li> <a href="html/2023.html" class="no-ch">2023</a>
+</li>
+<li> <a href="html/2024.html" class="no-ch">2024</a>
+</li>
+<li> <a href="html/2025.html" class="no-ch">2025</a>
+</li>
+<li> <a href="html/2026.html" class="no-ch">2026</a>
+</li>
+</ul>
+</nav><main id="page-mvs1zops-l9kls3f14" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">Problemas de selectividad</p>
+<p class="package-subtitle">Matrices, determinantes y sistemas</p></div>
+<div class="page-header"><h1 class="page-title">2021</h1></div>
+</header><div id="page-content-page-mvs1zops-l9kls3f14" class="page-content">
+<article id="block-mvs1zops-qfk5495fg" class="box ejercicio-custom-verde">
+<header class="box-head no-icon">
+<h1 class="box-title">Junio. Ejercicio 5.</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mvs1zops-vi88i9yja" class="idevice_node text" data-idevice-path="idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mvs1zops-vi88i9yja&quot;}">
+<p>Considera el siguiente sistema de ecuaciones lineales: \( \begin{cases} mx + 2y - z &= 1 \\ 5x - 4y + 2z &= 0 \\ x + 3my &= m + \dfrac{2}{5} \end{cases} \)</p>
+<p>a) Discute el sistema según los valores de \(m\)</p>
+<p>b) Resuelve el sistema para \(m=0\). ¿Hay alguna solución en la que \(x=0\)? En caso afirmativo, calcúlala. En caso negativo, justifica la respuesta.</p><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Solución" /></div><div class="feedback js-feedback js-hidden"><div class="exe-layout-2-cols exe-clear" style="font-family: Arial, sans-serif; color: #333;">
+<div style="border: 1px solid #ddd; padding: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+<h4 style="border-bottom: 2px solid #1e88e5; padding-bottom: 10px; color: #1565c0;">a) Discusión del sistema según los valores de \(m\)</h4>
+<p>Definimos la matriz de coeficientes \( A \) y la matriz ampliada \( A^* \):</p>
+<p style="text-align: center;">\( A = \left( \begin{array}{rrr} m & 2 & -1 \\ 5 & -4 & 2 \\ 1 & 3m & 0 \end{array} \right) \quad A^* = \left( \begin{array}{rrr|r} m & 2 & -1 & 1 \\ 5 & -4 & 2 & 0 \\ 1 & 3m & 0 & m + \dfrac{2}{5} \end{array} \right) \)</p>
+<p><strong>1. Calculamos el determinante de A:</strong></p>
+<p>Aplicamos la Regla de Sarrus:</p>
+<p style="text-align: center;">\[ |A| = [ m(-4)(0) + 2(2)(1) + (-1)(5)(3m) ] - [ (-1)(-4)(1) + 2(5)(0) + m(2)(3m) ] \]<br />\[ |A| = ( 0 + 4 - 15m ) - ( 4 + 0 + 6m^2 ) = 4 - 15m - 4 - 6m^2 = \mathbf{-6m^2 - 15m} \]</p>
+<p><strong>2. Hallamos las raíces:</strong></p>
+<p>Igualamos a cero para ver cuándo cambia el rango:</p>
+<p style="text-align: center;">\( -6m^2 - 15m = 0 \implies -3m(2m + 5) = 0 \)</p>
+<ul style="list-style-type: disc; margin-left: 20px;">
+<li>\( m = 0 \)</li>
+<li>\( 2m + 5 = 0 \implies m = -\dfrac{5}{2} \)</li>
+</ul>
+<p><strong>3. Discusión (Teorema de Rouché-Capelli):</strong></p>
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 5px; margin-top: 15px;">
+<p style="margin-top: 0; color: #2e7d32; font-weight: bold;">Caso 1: \( m \neq 0 \) y \( m \neq -5/2 \)</p>
+<p>\( |A| \neq 0 \implies \text{rg}(A) = 3 \). Como la matriz ampliada no puede tener un rango mayor, \( \text{rg}(A^*) = 3 \). Al coincidir los rangos con el número de incógnitas, es un <strong>Sistema Compatible Determinado (SCD)</strong> (solución única).</p>
+<hr style="border: 0; border-top: 1px dashed #ccc; margin: 15px 0;" />
+<p style="color: #f57c00; font-weight: bold;">Caso 2: \( m = 0 \)</p>
+<p>La matriz \( A \) queda: \( \left( \begin{array}{rrr} 0 & 2 & -1 \\ 5 & -4 & 2 \\ 1 & 0 & 0 \end{array} \right) \). Vemos que \( |A|=0 \), pero el menor \( \left| \begin{array}{rr} 0 & 2 \\ 5 & -4 \end{array} \right| = -10 \neq 0 \), luego \( \text{rg}(A) = 2 \).</p>
+<p>Calculamos el determinante formado por las columnas 1, 2 y la ampliada (\( 1, 0, 2/5 \)): da exactamente \( 0 \). Esto significa que la columna ampliada no aporta independencia lineal, por lo que \( \text{rg}(A^*) = 2 \).</p>
+<p>\( \text{rg}(A) = \text{rg}(A^*) = 2 < 3 \). Es un <strong>Sistema Compatible Indeterminado (SCI)</strong> (infinitas soluciones).</p>
+<hr style="border: 0; border-top: 1px dashed #ccc; margin: 15px 0;" />
+<p style="color: #c62828; font-weight: bold;">Caso 3: \( m = -5/2 \)</p>
+<p>Sustituyendo, vemos que la Fila 2 de \( A \) es proporcional a la Fila 1 (\( F_2 = -2 \cdot F_1 \)), por lo que \( \text{rg}(A) = 2 \). Sin embargo, en la columna ampliada, \( 0 \neq -2 \cdot 1 \). Esa proporcionalidad se rompe al añadir los términos independientes, lo que hace que \( \text{rg}(A^*) = 3 \).</p>
+<p>\( \text{rg}(A) \neq \text{rg}(A^*) \). Es un <strong>Sistema Incompatible (SI)</strong> (no tiene solución).</p>
+</div>
+<h4 style="border-bottom: 2px solid #1e88e5; padding-bottom: 10px; color: #1565c0; margin-top: 30px;">b) Resolución para \( m = 0 \) y análisis de \( x = 0 \)</h4>
+<p>Sustituimos \( m = 0 \) en el sistema inicial. Nos queda:</p>
+<p style="text-align: center;">\( \begin{cases} 2y - z = 1 \\ 5x - 4y + 2z = 0 \\ x = \dfrac{2}{5} \end{cases} \)</p>
+<p>De la tercera ecuación obtenemos directamente el valor de \( x \):</p>
+<p style="text-align: center;">\( \mathbf{x = \dfrac{2}{5}} \)</p>
+<p>De la primera ecuación despejamos \( z \):</p>
+<p style="text-align: center;">\( z = 2y - 1 \)</p>
+<p>Si comprobamos en la segunda ecuación, vemos que se anula (es combinación lineal de la primera). Como vimos en la discusión, es un SCI. Para dar la solución, llamamos \( y = \lambda \):</p>
+<p style="text-align: center; font-weight: bold; font-size: 1.1em; color: #1e88e5; background-color: #e3f2fd; padding: 10px; border-radius: 4px;">Solución: \( \quad x = \dfrac{2}{5} \quad , \quad y = \lambda \quad , \quad z = 2\lambda - 1 \quad \text{con } \lambda \in \mathbb{R} \)</p>
+<p><strong>¿Hay alguna solución en la que \( x = 0 \)?</strong></p>
+<p style="font-weight: bold; color: #c62828;">NO.</p>
+<p><strong>Justificación:</strong> Como hemos calculado, el sistema para \( m=0 \) tiene infinitas soluciones (dependen de \( \lambda \)). Sin embargo, el valor de \( x \) es constante e independiente del parámetro; vale estrictamente \( \dfrac{2}{5} \) en todos los casos posibles. Por tanto, es matemáticamente imposible que \( x = 0 \).</p>
+</div>
+</div>
+<p>Para ver la solución de emestrada, pulsa en la imagen: <a href="content/resources/MII-T2-2021_1.pdf" target="_blank" rel="noopener"><img src="content/resources/emestrada.png" alt="" width="183" height="70" style="vertical-align: middle;" /></a></p></div>
+</div>
+</div>
+</article><article id="block-mvs1zops-5lds7i8m8" class="box ejercicio-custom-verde">
+<header class="box-head no-icon">
+<h1 class="box-title">Junio. Ejercicio 6.</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mvs1zops-wwr01o3xm" class="idevice_node text" data-idevice-path="idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mvs1zops-wwr01o3xm&quot;}">
+<p>En una empresa se fabrican tres tipos de productos plásticos: botellas, garrafas y bidones. Se utiliza como materia prima \(10 kg\) de polietileno cada hora. Se sabe que para fabricar cada botella se necesitan \(50\) gramos, para cada garrafa \(100\) gramos y \(1 kg\) para cada bidón.<br />El gerente también nos dice que se debe producir el doble de botellas que de garrafas. Por último, se sabe que por motivos de capacidad de trabajo, en las máquinas se producen en total \(52\) productos cada hora.<br />¿Cuántas botellas, garrafas y bidones se producen cada hora?.</p><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Solución" /></div><div class="feedback js-feedback js-hidden"><div class="exe-layout-2-cols exe-clear" style="font-family: Arial, sans-serif; color: #333;">
+<div style="background-color: #e1f5fe; padding: 15px; border-left: 5px solid #0288d1; margin-bottom: 20px; border-radius: 4px;">
+<p style="margin-top: 10px;">Definimos las incógnitas como la cantidad de productos por hora:</p>
+<ul style="list-style-type: none; margin-left: 10px; padding: 0;">
+<li><strong>\( x \):</strong> número de botellas</li>
+<li><strong>\( y \):</strong> número de garrafas</li>
+<li><strong>\( z \):</strong> número de bidones</li>
+</ul>
+</div>
+<div style="border: 1px solid #ddd; padding: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+<h4 style="border-bottom: 2px solid #0288d1; padding-bottom: 10px; color: #01579b;">1. Planteamiento del sistema</h4>
+<p>Extraemos las tres ecuaciones de las condiciones del enunciado. <em>(Nota: Pasamos el polietileno a gramos para unificar unidades: 10 kg = 10000 g y 1 kg = 1000 g)</em>.</p>
+<ul style="list-style-type: disc; margin-left: 20px; margin-bottom: 15px;">
+<li>Producción total (52 productos): \( x + y + z = 52 \)</li>
+<li>Doble de botellas que de garrafas: \( x = 2y \)</li>
+<li>Consumo de material (10000 g): \( 50x + 100y + 1000z = 10000 \)</li>
+</ul>
+<p>Para facilitar los cálculos, dividimos la tercera ecuación entre 50. El sistema nos queda:</p>
+<p style="text-align: center;">\( \begin{cases} x + y + z = 52 \\ x = 2y \\ x + 2y + 20z = 200 \end{cases} \)</p>
+<h4 style="border-bottom: 2px solid #0288d1; padding-bottom: 10px; color: #01579b; margin-top: 30px;">2. Resolución por sustitución</h4>
+<p>Sustituimos la segunda ecuación (\( x = 2y \)) en la primera y en la tercera:</p>
+<ul style="list-style-type: none; padding: 0;">
+<li style="margin-bottom: 10px;"><strong>En la 1ª:</strong> \( (2y) + y + z = 52 \implies 3y + z = 52 \implies \mathbf{z = 52 - 3y} \)</li>
+<li style="margin-bottom: 10px;"><strong>En la 3ª:</strong> \( (2y) + 2y + 20z = 200 \implies 4y + 20z = 200 \) <br /><em>(Dividimos entre 4)</em> \( \implies \mathbf{y + 5z = 50} \)</li>
+</ul>
+<p>Ahora sustituimos la expresión de \( z \) en esta última ecuación:</p>
+<p style="text-align: center;">\( y + 5(52 - 3y) = 50 \) <br />\( y + 260 - 15y = 50 \) <br />\( -14y = 50 - 260 \) <br />\( -14y = -210 \implies y = \dfrac{-210}{-14} \implies \mathbf{y = 15} \)</p>
+<h4 style="border-bottom: 2px solid #0288d1; padding-bottom: 10px; color: #01579b; margin-top: 30px;">3. Cálculo de las incógnitas restantes</h4>
+<p>Sustituimos el valor de \( y = 15 \) en las expresiones que habíamos despejado:</p>
+<ul style="list-style-type: none; padding: 0;">
+<li><strong>Botellas (\( x \)):</strong> \( x = 2(15) \implies \mathbf{x = 30} \)</li>
+<li><strong>Bidones (\( z \)):</strong> \( z = 52 - 3(15) = 52 - 45 \implies \mathbf{z = 7} \)</li>
+</ul>
+<p style="text-align: center; font-weight: bold; font-size: 1.2em; color: #004d40; margin-top: 25px; padding: 15px; border: 2px solid #80cbc4; border-radius: 5px; background-color: #e0f2f1;">Solución: Cada hora se producen 30 botellas, 15 garrafas y 7 bidones.</p>
+</div>
+</div>
+<p>Para ver la solución de emestrada, pulsa en la imagen: <a href="content/resources/MII-T2-2021_2.pdf" target="_blank" rel="noopener"><img src="content/resources/emestrada.png" alt="" width="183" height="70" style="vertical-align: middle;" /></a></p></div>
+</div>
+</div>
+</article><article id="block-mvs1zops-gh4may2ha" class="box ejercicio-custom-verde">
+<header class="box-head no-icon">
+<h1 class="box-title">Julio, Ejercicio 5.</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mvs1zops-59nnnfuic" class="idevice_node text" data-idevice-path="idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mvs1zops-59nnnfuic&quot;}">
+<p>Considera la matriz \( A = \left( \begin{array}{rrr} 0 & 3 & 4 \\ 1 & -4 & -5 \\ -1 & 3 & 4 \end{array} \right) \)</p>
+<p>a) Comprueba que \( A^2 = -A^{-1} \)</p>
+<p>b) Dadas las matrices \(B = \left( \begin{array}{rr} 1 & -1 \\ 3 & 0 \\ -4 & 5 \end{array} \right) \quad \text{y} \quad C = \left( \begin{array}{rr} 2 & 0 \\ -3 & 2 \\ 1 & -1 \end{array} \right) \)  calcula la matriz \(X\) que verifica \( A^4 X + B = AC \)</p>
+<p></p><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Solución" /></div><div class="feedback js-feedback js-hidden"><div class="exe-layout-2-cols exe-clear" style="font-family: Arial, sans-serif; color: #333;">
+<div style="border: 1px solid #ddd; padding: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+<h4 style="border-bottom: 2px solid #2196f3; padding-bottom: 10px; color: #1565c0;">a) Comprobar \( A^2 = -A^{-1} \)</h4>
+<p>En lugar de calcular la inversa, comprobamos si \( A^3 = -I \):</p>
+<p style="text-align: center;">\( A^2 = \left( \begin{array}{rrr} -1 & 0 & 1 \\ 1 & 4 & 4 \\ -1 & -3 & -3 \end{array} \right) \)</p>
+<p style="text-align: center;">\( A^3 = A^2 \cdot A = \left( \begin{array}{rrr} -1 & 0 & 0 \\ 0 & -1 & 0 \\ 0 & 0 & -1 \end{array} \right) = -I \)</p>
+<p>Al verificarse \( A^3 = -I \), multiplicando por \( A^{-1} \) obtenemos \( A^2 = -A^{-1} \).</p>
+<p><span style="color: #ff6600;">Esto también implica que <strong>\( A^{-1} = -A^2 \)</strong>.</span></p>
+<h4 style="border-bottom: 2px solid #2196f3; padding-bottom: 10px; color: #1565c0; margin-top: 30px;">b) Calcular matriz \(X\)</h4>
+<p>Resolvemos la ecuación \( A^4 X + B = AC \):</p>
+<ol style="margin-left: 20px;">
+<li>
+<p>Simplificamos \( A^4 \): Como \( A^3 = -I \), entonces \( A^4 = -A \).</p>
+</li>
+<li>
+<p>Sustituimos: \( -A X + B = AC \implies A X = B - AC \).</p>
+</li>
+<li>
+<p>Despejamos \(X\) multiplicando por \( A^{-1} \):</p>
+<p>\( X = A^{-1}B - C \).</p>
+</li>
+<li>
+<p>Usamos la propiedad del apartado a) (\( A^{-1} = -A^2 \)):</p>
+<p>\( \mathbf{X = -A^2 B - C} \).</p>
+</li>
+</ol>
+<p><strong>Cálculos:</strong></p>
+<p style="text-align: center;">\( A^2 B = \left( \begin{array}{rr} -5 & 6 \\ -3 & 19 \\ 2 & -14 \end{array} \right) \)</p>
+<p style="text-align: center;">\( X = - \left( \begin{array}{rr} -5 & 6 \\ -3 & 19 \\ 2 & -14 \end{array} \right) - \left( \begin{array}{rr} 2 & 0 \\ -3 & 2 \\ 1 & -1 \end{array} \right) \)</p>
+<p style="text-align: center;">\( X = \left( \begin{array}{rr} 5 & -6 \\ 3 & -19 \\ -2 & 14 \end{array} \right) + \left( \begin{array}{rr} -2 & 0 \\ 3 & -2 \\ -1 & 1 \end{array} \right) \)</p>
+<p style="text-align: center; font-weight: bold; font-size: 1.2em; color: #0d47a1; margin-top: 20px; padding: 15px; border: 2px solid #bbdefb; border-radius: 5px;">Solución: \( X = \left( \begin{array}{rr} 3 & -6 \\ 6 & -21 \\ -3 & 15 \end{array} \right) \)</p>
+<p>Para ver la solución de emestrada, pulsa en la imagen: <a href="content/resources/MII-T1-2021.pdf" target="_blank" rel="noopener"><img src="content/resources/emestrada.png" alt="" width="183" height="70" align="middle" style="vertical-align: middle;" /></a></p>
+</div>
+</div></div>
+</div>
+</div>
+</article><article id="block-mvs1zops-qt1v4gv7j" class="box ejercicio-custom-verde">
+<header class="box-head no-icon">
+<h1 class="box-title">Julio. Ejercicio 6.</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mvs1zops-yzlg4a0fs" class="idevice_node text" data-idevice-path="idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mvs1zops-yzlg4a0fs&quot;}">
+<p>Una empresa de mensajería opera en tres rutas distintas \(A\), \(B\) y \(C\). Semanalmente hace un total de \(70\) viajes, y el número de viajes por la ruta \(B\) es igual a la suma de los viajes por las rutas \(A\) y \(C\).<br />a) Si sabemos que el doble de la suma de los viajes por las rutas \(A\) y \(C\) es \(70\), ¿podemos deducir el número de viajes por cada ruta?. Razona la respuesta.<br />b) Si el doble de viajes por la ruta \(C\) es igual al número de viajes por la ruta \(B\) menos \(5\), ¿cuántos viajes hace por cada ruta?.</p><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Solución" /></div><div class="feedback js-feedback js-hidden"><div class="exe-layout-2-cols exe-clear" style="font-family: Arial, sans-serif; color: #333;">
+<div style="background-color: #e8eaf6; padding: 15px; border-left: 5px solid #3f51b5; margin-bottom: 20px; border-radius: 4px;">
+<p style="margin-top: 10px;">Definimos las incógnitas como el número de viajes semanales por cada ruta:</p>
+<ul style="list-style-type: none; margin-left: 10px; padding: 0;">
+<li><strong>\( x \):</strong> viajes ruta A</li>
+<li><strong>\( y \):</strong> viajes ruta B</li>
+<li><strong>\( z \):</strong> viajes ruta C</li>
+</ul>
+</div>
+<div style="border: 1px solid #ddd; padding: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+<h4 style="border-bottom: 2px solid #3f51b5; padding-bottom: 10px; color: #283593;">Análisis inicial (Ecuaciones base)</h4>
+<p>El enunciado común para todos los apartados nos da dos ecuaciones:</p>
+<ul style="list-style-type: disc; margin-left: 20px;">
+<li>Total de viajes: \( x + y + z = 70 \)</li>
+<li>Ruta B igual a A y C: \( y = x + z \)</li>
+</ul>
+<p>Si agrupamos \( x + z \) en la primera ecuación y lo sustituimos por \( y \):</p>
+<p style="text-align: center; font-weight: bold; background-color: #f5f5f5; padding: 10px; border-radius: 5px;">\( (x + z) + y = 70 \implies y + y = 70 \implies 2y = 70 \implies \mathbf{y = 35} \)</p>
+<p>Deducimos que la ruta B siempre hace 35 viajes y que, por tanto, \( x + z = 35 \).</p>
+<h4 style="border-bottom: 2px solid #3f51b5; padding-bottom: 10px; color: #283593; margin-top: 30px;">a) ¿Podemos deducir el número de viajes?</h4>
+<p>La nueva condición afirma que: \( 2(x + z) = 70 \implies x + z = 35 \).</p>
+<p>Esta es exactamente la misma información que ya teníamos. Por tanto, tenemos 2 incógnitas (\( x \), \( z \)) y solo 1 ecuación. Es un <strong>Sistema Compatible Indeterminado</strong>.</p>
+<p style="background-color: #ffebee; padding: 10px; border-radius: 4px; border-left: 3px solid #f44336; color: #c62828;"><strong>Respuesta: NO.</strong> Hay infinitas combinaciones que suman 35 (ej: 10 y 25, 20 y 15...), por lo que no se puede deducir de forma única.</p>
+<h4 style="border-bottom: 2px solid #3f51b5; padding-bottom: 10px; color: #283593; margin-top: 30px;">b) Cálculo de viajes con nueva condición</h4>
+<p>La nueva ecuación nos dice: \( 2z = y - 5 \).</p>
+<p>Como sabemos del análisis inicial que \( y = 35 \), sustituimos directamente:</p>
+<p style="text-align: center;">\( 2z = 35 - 5 \implies 2z = 30 \implies \mathbf{z = 15} \)</p>
+<p>Para hallar \( x \), usamos la relación \( x + z = 35 \):</p>
+<p style="text-align: center;">\( x + 15 = 35 \implies \mathbf{x = 20} \)</p>
+<p style="text-align: center; font-weight: bold; font-size: 1.2em; color: #1a237e; margin-top: 25px; padding: 15px; border: 2px solid #c5cae9; border-radius: 5px; background-color: #e8eaf6;">Solución: Se hacen 20 viajes en la ruta A, 35 en la ruta B y 15 en la ruta C.</p>
+</div>
+</div>
+<p>Para ver la solución de emestrada, pulsa en la imagen: <a href="content/resources/MII-T2-2021_3.pdf" target="_blank" rel="noopener"><img src="content/resources/emestrada.png" alt="" width="183" height="70" style="vertical-align: middle;" /></a></p></div>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<span class="nav-button nav-button-left" aria-hidden="true"><span>Anterior</span></span>
+<a href="html/2022.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense" class="cc cc-by-sa"> <p> <span class="license-label">Licencia: </span><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="license">Creative Commons: Reconocimiento - compartir igual 4.0</a></p>
+</div>
+</div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-page-mvs1zops-v9b7et4kc">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.6">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="exe-pass-score" content="5">
+<link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<title>2022 | Problemas de selectividad</title>
+<link rel="icon" type="image/x-icon" href="../theme/img/favicon.ico">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><script src="../theme/z-custom-effects.js"> </script><link rel="stylesheet" href="../theme/colores.css"><link rel="stylesheet" href="../theme/comic.css"><link rel="stylesheet" href="../theme/ejercicio.css"><link rel="stylesheet" href="../theme/libreta.css"><link rel="stylesheet" href="../theme/navegacion.css"><link rel="stylesheet" href="../theme/nota-azul.css"><link rel="stylesheet" href="../theme/retroalimentacion.css"><link rel="stylesheet" href="../theme/style.css">
+<script src="../libs/exe_math/tex-mml-svg.js"> </script>
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mvs1zops-v9b7et4kc" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">2021</a>
+</li>
+<li class="active"> <a href="../html/2022.html" class="active no-ch">2022</a>
+</li>
+<li> <a href="../html/2023.html" class="no-ch">2023</a>
+</li>
+<li> <a href="../html/2024.html" class="no-ch">2024</a>
+</li>
+<li> <a href="../html/2025.html" class="no-ch">2025</a>
+</li>
+<li> <a href="../html/2026.html" class="no-ch">2026</a>
+</li>
+</ul>
+</nav><main id="page-mvs1zops-v9b7et4kc" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">Problemas de selectividad</p>
+<p class="package-subtitle">Matrices, determinantes y sistemas</p></div>
+<div class="page-header"><h1 class="page-title">2022</h1></div>
+</header><div id="page-content-page-mvs1zops-v9b7et4kc" class="page-content">
+<article id="block-mvs1zops-vn04q4374" class="box ejercicio-custom-verde">
+<header class="box-head no-icon">
+<h1 class="box-title">Junio. Ejercicio 5.</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mvs1zops-hwgbvrut5" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mvs1zops-hwgbvrut5&quot;}">
+<p>Considera el sistema: \( \begin{cases} x - y + mz = -3 \\ -mx + 3y - z = 1 \\ x - 4y + mz = -6 \end{cases} \)</p>
+<p><br />a) Discute el sistema según los valores de \(m\).<br />b) Para \(m=2\) resuelve el sistema, si es posible.</p><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Solución" /></div><div class="feedback js-feedback js-hidden"><div class="exe-layout-2-cols exe-clear" style="font-family: Arial, sans-serif; color: #333;">
+<div style="border: 1px solid #ddd; padding: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+<h4 style="border-bottom: 2px solid #1e88e5; padding-bottom: 10px; color: #1565c0;">a) Discusión del sistema según los valores de m</h4>
+<p>Definimos la matriz de coeficientes \( A \) y la matriz ampliada \( A^* \):</p>
+<p style="text-align: center;">\( A = \left( \begin{array}{rrr} 1 & -1 & m \\ -m & 3 & -1 \\ 1 & -4 & m \end{array} \right) \quad A^* = \left( \begin{array}{rrr|r} 1 & -1 & m & -3 \\ -m & 3 & -1 & 1 \\ 1 & -4 & m & -6 \end{array} \right) \)</p>
+<p><strong>1. Calculamos el determinante de A:</strong></p>
+<p>Aplicamos la Regla de Sarrus:</p>
+<p style="text-align: center;">\[ |A| = [ (1)(3)(m) + (-1)(-1)(1) + (m)(-m)(-4) ] - [ (m)(3)(1) + (-1)(-m)(m) + (1)(-1)(-4) ] \]<br />\[ |A| = (3m + 1 + 4m^2) - (3m + m^2 + 4) = 4m^2 + 3m + 1 - 3m - m^2 - 4 = \mathbf{3m^2 - 3} \]</p>
+<p><strong>2. Hallamos las raíces:</strong></p>
+<p>Igualamos a cero para encontrar los valores críticos:</p>
+<p style="text-align: center;">\( 3m^2 - 3 = 0 \implies 3m^2 = 3 \implies m^2 = 1 \implies \mathbf{m = 1, \quad m = -1} \)</p>
+<p><strong>3. Discusión (Teorema de Rouché-Capelli):</strong></p>
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 5px; margin-top: 15px;">
+<p style="margin-top: 0; color: #2e7d32; font-weight: bold;">Caso 1: \( m \neq 1 \) y \( m \neq -1 \)</p>
+<p>\( |A| \neq 0 \implies \text{rg}(A) = 3 \). Como la matriz ampliada \( A^* \) tiene 3 filas, su rango también será 3. Al coincidir los rangos con el número de incógnitas (\( n=3 \)), es un <strong>Sistema Compatible Determinado (SCD)</strong> (solución única).</p>
+<hr style="border: 0; border-top: 1px dashed #ccc; margin: 15px 0;" />
+<p style="color: #c62828; font-weight: bold;">Caso 2: \( m = 1 \)</p>
+<p>Sustituimos en \( A \): el determinante es 0, pero el menor \( \left| \begin{array}{rr} 1 & -1 \\ -1 & 3 \end{array} \right| = 2 \neq 0 \), luego \( \text{rg}(A) = 2 \).</p>
+<p>Calculamos el rango de \( A^* \) sustituyendo la tercera columna por la de términos independientes:</p>
+<p style="text-align: center;">\( \left| \begin{array}{rrr} 1 & -1 & -3 \\ -1 & 3 & 1 \\ 1 & -4 & -6 \end{array} \right| = -12 \neq 0 \implies \text{rg}(A^*) = 3 \)</p>
+<p>Como \( \text{rg}(A) \neq \text{rg}(A^*) \) (\( 2 \neq 3 \)), el sistema es <strong>Incompatible (SI)</strong> (no tiene solución).</p>
+<hr style="border: 0; border-top: 1px dashed #ccc; margin: 15px 0;" />
+<p style="color: #f57c00; font-weight: bold;">Caso 3: \( m = -1 \)</p>
+<p>Al sustituir, vemos que la columna 3 es igual a la columna 1 cambiada de signo, así que \( \text{rg}(A) = 2 \). Si evaluamos el mismo menor para la ampliada que en el caso anterior:</p>
+<p style="text-align: center;">\( \left| \begin{array}{rrr} 1 & -1 & -3 \\ 1 & 3 & 1 \\ 1 & -4 & -6 \end{array} \right| = (-18 - 1 + 12) - (-9 - 4 + 6) = -7 - (-7) = 0 \)</p>
+<p>Todos los menores de orden 3 se anulan, por lo que \( \text{rg}(A^*) = 2 \).</p>
+<p>Como \( \text{rg}(A) = \text{rg}(A^*) = 2 < 3 \), es un <strong>Sistema Compatible Indeterminado (SCI)</strong> (infinitas soluciones).</p>
+</div>
+<h4 style="border-bottom: 2px solid #1e88e5; padding-bottom: 10px; color: #1565c0; margin-top: 30px;">b) Resolución para \( m = 2 \)</h4>
+<p>Como \( m=2 \neq \pm 1 \), estamos en el Caso 1 (SCD). Usaremos la Regla de Cramer para resolverlo.</p>
+<p>Sabemos que el determinante principal es \( |A| = 3(2)^2 - 3 = 12 - 3 = \mathbf{9} \).</p>
+<p>Calculamos los determinantes de cada incógnita sustituyendo la columna correspondiente por los términos independientes:</p>
+<ul style="list-style: none; padding: 0;">
+<li style="margin-bottom: 15px;">\( |A_x| = \left| \begin{array}{rrr} -3 & -1 & 2 \\ 1 & 3 & -1 \\ -6 & -4 & 2 \end{array} \right| = (-18 - 6 - 8) - (-36 - 12 - 2) = -32 - (-50) = \mathbf{18} \)</li>
+<li style="margin-bottom: 15px;">\( |A_y| = \left| \begin{array}{rrr} 1 & -3 & 2 \\ -2 & 1 & -1 \\ 1 & -6 & 2 \end{array} \right| = (2 + 3 + 24) - (2 + 6 + 12) = 29 - 20 = \mathbf{9} \)</li>
+<li style="margin-bottom: 15px;">\( |A_z| = \left| \begin{array}{rrr} 1 & -1 & -3 \\ -2 & 3 & 1 \\ 1 & -4 & -6 \end{array} \right| = (-18 - 1 - 24) - (-9 - 4 - 12) = -43 - (-25) = \mathbf{-18} \)</li>
+</ul>
+<p>Aplicamos Cramer (\( x = \dfrac{|A_x|}{|A|} \)):</p>
+<p style="text-align: center; font-weight: bold; font-size: 1.2em; color: #1e88e5; background-color: #e3f2fd; padding: 15px; border-radius: 5px; border: 2px solid #90caf9; margin-top: 20px;">Solución: \( \quad x = \dfrac{18}{9} = 2 \quad ; \quad y = \dfrac{9}{9} = 1 \quad ; \quad z = \dfrac{-18}{9} = -2 \)</p>
+</div>
+</div>
+<p>Para ver la solución de emestrada, pulsa en la imagen: <a href="../content/resources/MII-T2-2022.pdf" target="_blank" rel="noopener"><img src="../content/resources/emestrada.png" alt="" width="183" height="70" style="vertical-align: middle;" /></a></p></div>
+</div>
+</div>
+</article><article id="block-mvs1zopt-kdx8s4y82" class="box ejercicio-custom-verde">
+<header class="box-head no-icon">
+<h1 class="box-title">Junio. Ejercicio 6.</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mvs1zopt-cq3jg9yby" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mvs1zopt-cq3jg9yby&quot;}">
+<p>Dada la matriz \( A = \left( \begin{array}{rrr} m & \sqrt{m} & \sqrt{m} \\ \sqrt{m} & m & 1 \\ \sqrt{m} & 1 & m \end{array} \right) \), donde \( m \ge 0 \):</p>
+<ol style="list-style-type: lower-alpha;">
+<li>
+<p>¿Para qué valores de \( m \) tiene inversa la matriz \( A \)?</p>
+</li>
+<li>
+<p>Para \( m=4 \) resuelve, si es posible, la ecuación matricial \( A \cdot X = 12 ·I \), donde \(I\) es la matriz identidad de orden 3.</p>
+</li>
+</ol><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Solución" /></div><div class="feedback js-feedback js-hidden"><div class="exe-layout-2-cols exe-clear" style="font-family: Arial, sans-serif; color: #333;">
+<div style="border: 1px solid #ddd; padding: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+<h4 style="border-bottom: 2px solid #ff9800; padding-bottom: 10px; color: #ef6c00;">a) Existencia de Inversa</h4>
+<p>Una matriz tiene inversa si su determinante es distinto de cero. Aplicamos la regla de Sarrus:</p>
+<p>\[ |A| = (m^3 + m + m) - (m^2 + m + m^2) \]\[ |A| = m^3 + 2m - 2m^2 - m = m^3 - 2m^2 + m \]</p>
+<p>Sacamos factor común \( m \) y factorizamos:</p>
+<p style="text-align: center;">\( |A| = m(m^2 - 2m + 1) = m(m-1)^2 \)</p>
+<p>El determinante se anula si \( m=0 \) o \( (m-1)^2=0 \implies m=1 \).</p>
+<p style="font-weight: bold; color: #d84315; background-color: #fbe9e7; padding: 10px; border-radius: 5px; text-align: center;">La matriz tiene inversa para todo \( m \ge 0 \) excepto para \( m=0 \) y \( m=1 \).</p>
+<h4 style="border-bottom: 2px solid #ff9800; padding-bottom: 10px; color: #ef6c00; margin-top: 30px;">b) Resolución para \( m=4 \)</h4>
+<p>Para \( m=4 \) (donde \( \sqrt{4}=2 \)), la matriz es:</p>
+<p style="text-align: center;">\( A = \left( \begin{array}{rrr} 4 & 2 & 2 \\ 2 & 4 & 1 \\ 2 & 1 & 4 \end{array} \right) \)</p>
+<p><strong>1. Despejar X</strong></p>
+<p>Partimos de \( A \cdot X = 12 I \). Multiplicamos por la inversa a la izquierda:</p>
+<p style="text-align: center;">\( X = A^{-1} \cdot 12 I = 12 A^{-1} \)</p>
+<p><strong>2. Calcular la Inversa de A</strong></p>
+<p>Usamos la fórmula \[ A^{-1} = \dfrac{1}{|A|} \text{Adj}(A)^t \]</p>
+<ul style="list-style: none; padding: 0;">
+<li><strong>Determinante:</strong> \[ |A| = 4(4-1)^2 = 4 \cdot 9 = 36 \]</li>
+<li><strong>Adjunta (Cofactores):</strong>
+<p style="text-align: center;">\( \text{Adj}(A) = \left( \begin{array}{rrr} 15 & -6 & -6 \\ -6 & 12 & 0 \\ -6 & 0 & 12 \end{array} \right) \)</p>
+<small><em>(Al ser A simétrica, la traspuesta coincide con la adjunta).</em></small></li>
+</ul>
+<p><strong>3. Cálculo final de X</strong></p>
+<p>Sustituimos en la ecuación despejada:</p>
+<p style="text-align: center;">\( X = 12 \cdot \dfrac{1}{36} \cdot \left( \begin{array}{rrr} 15 & -6 & -6 \\ -6 & 12 & 0 \\ -6 & 0 & 12 \end{array} \right) \)</p>
+<p>Simplificamos la fracción \( \dfrac{12}{36} = \dfrac{1}{3} \) y multiplicamos:</p>
+<p style="text-align: center; font-weight: bold; font-size: 1.2em; color: #e65100; margin-top: 20px; padding: 15px; border: 2px solid #ffe0b2; border-radius: 5px;">Solución: \( X = \left( \begin{array}{rrr} 5 & -2 & -2 \\ -2 & 4 & 0 \\ -2 & 0 & 4 \end{array} \right) \)</p>
+</div>
+<p>Para ver la solución de emestrada, pulsa en la imagen <a href="../content/resources/MII-T1-2022_1.pdf" target="_blank" rel="noopener"><img src="../content/resources/emestrada.png" width="154" height="59" style="vertical-align: middle;" /></a></p>
+</div></div>
+</div>
+</div>
+</article><article id="block-mvs1zopt-lcx70hl3s" class="box ejercicio-custom-verde">
+<header class="box-head no-icon">
+<h1 class="box-title">Julio. Ejercicio 5.</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mvs1zopt-b0koa9qbm" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mvs1zopt-b0koa9qbm&quot;}">
+<p>Dadas las matrices:</p>
+<p>\( A = \left( \begin{array}{rr} 1 & 0 \\ -2 & 1 \end{array} \right) , \quad B = \left( \begin{array}{rrr} 1 & 1 & a \\ 2 & a & 1 \\ 2 & 2 & 0 \end{array} \right) \quad \text{y} \quad C = \left( \begin{array}{rrr} 1 & 0 & -2 \\ 2 & -1 & -1 \end{array} \right) \)</p>
+<p>a) Calcula los valores de \( a \) para los que la matriz \(B\) no tiene inversa.</p>
+<p>b) Para \( a=1 \), calcula \(X\) tal que \(AXB=C\), si es posible.</p><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Solución" /></div><div class="feedback js-feedback js-hidden"><div class="exe-layout-2-cols exe-clear" style="font-family: Arial, sans-serif; color: #333;">
+<div style="border: 1px solid #ddd; padding: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+<h4 style="border-bottom: 2px solid #3f51b5; padding-bottom: 10px; color: #283593;">a) Valores de \( a \) sin inversa para \(B\)</h4>
+<p>Una matriz no tiene inversa si su determinante es 0. Calculamos \( |B| \):</p>
+<p style="text-align: center;">\[ |B| = 1(0-2) - 1(0-2) + a(4-2a) \]<br />\[ |B| = -2 + 2 + 4a - 2a^2 = 4a - 2a^2 \]</p>
+<p>Igualamos a cero:</p>
+<p style="text-align: center;">\( 2a(2 - a) = 0 \implies a = 0, \quad a = 2 \)</p>
+<p style="background-color: #c5cae9; padding: 10px; border-radius: 4px; text-align: center; color: #1a237e;"><strong>La matriz B no tiene inversa para \( a=0 \) y \( a=2 \).</strong></p>
+<h4 style="border-bottom: 2px solid #3f51b5; padding-bottom: 10px; color: #283593; margin-top: 30px;">b) Calcular X para \( a=1 \)</h4>
+<p>Para \( a=1 \), \( B \) tiene inversa (pues \( |B| = 4(1)-2(1)^2 = 2 \)).</p>
+<p><strong>1. Despejar X:</strong></p>
+<p>De la ecuación \( AXB = C \), multiplicamos por la izquierda por \( A^{-1} \) y por la derecha por \( B^{-1} \):</p>
+<p style="text-align: center;">\( X = A^{-1} \cdot C \cdot B^{-1} \)</p>
+<p><strong>2. Calcular Inversas:</strong></p>
+<ul style="list-style: none; padding: 0;">
+<li><strong>Inversa de A:</strong> \( |A|=1 \). \( A^{-1} = \left( \begin{array}{rr} 1 & 0 \\ 2 & 1 \end{array} \right) \)</li>
+<li style="margin-top: 10px;"><strong>Inversa de B:</strong> \( |B|=2 \). Adjunta de B: \[ \text{Adj}(B) = \left( \begin{array}{rrr} -2 & 2 & 2 \\ 2 & -2 & 0 \\ 0 & 1 & -1 \end{array} \right) \]<br />Trasponemos la adjunta para la inversa: \[ B^{-1} = \dfrac{1}{2} \left( \begin{array}{rrr} -2 & 2 & 0 \\ 2 & -2 & 1 \\ 2 & 0 & -1 \end{array} \right) \]</li>
+</ul>
+<p><strong>3. Multiplicación de matrices:</strong></p>
+<p>Primero calculamos \( A^{-1} \cdot C \):</p>
+<p style="text-align: center;">\( \left( \begin{array}{rr} 1 & 0 \\ 2 & 1 \end{array} \right) \cdot \left( \begin{array}{rrr} 1 & 0 & -2 \\ 2 & -1 & -1 \end{array} \right) = \left( \begin{array}{rrr} 1 & 0 & -2 \\ 4 & -1 & -5 \end{array} \right) \)</p>
+<p>Ahora multiplicamos el resultado por \( B^{-1} \):</p>
+<p style="text-align: center;">\( X = \left( \begin{array}{rrr} 1 & 0 & -2 \\ 4 & -1 & -5 \end{array} \right) \cdot \dfrac{1}{2} \left( \begin{array}{rrr} -2 & 2 & 0 \\ 2 & -2 & 1 \\ 2 & 0 & -1 \end{array} \right) \)</p>
+<p style="text-align: center;">\( X = \dfrac{1}{2} \left( \begin{array}{rrr} -6 & 2 & 2 \\ -20 & 10 & 4 \end{array} \right) \)</p>
+<p style="text-align: center; font-weight: bold; font-size: 1.2em; color: #1a237e; margin-top: 20px; padding: 15px; border: 2px solid #9fa8da; border-radius: 5px;">Solución: \( X = \left( \begin{array}{rrr} -3 & 1 & 1 \\ -10 & 5 & 2 \end{array} \right) \)</p>
+</div>
+</div>
+<p>Para ver la solución de emestrada pulsa en la imagen <a href="../content/resources/MII-T1-2022_2.pdf" target="_blank" rel="noopener"><img src="../content/resources/emestrada.png" width="183" height="70" style="vertical-align: middle;" /></a></p></div>
+</div>
+</div>
+</article><article id="block-mvs1zopt-fu3gbk24g" class="box ejercicio-custom-verde">
+<header class="box-head no-icon">
+<h1 class="box-title">Julio. Ejercicio 6.</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mvs1zopt-4xee7qfxq" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mvs1zopt-4xee7qfxq&quot;}">
+<p>Se sabe que \( \left| \begin{array}{rrr} a & b & c \\ p & q & r \\ x & y & z \end{array} \right| = -2 \)</p>
+<p>a) Calcula: \( \left| \begin{array}{rrr} a & c & b \\ 2x & 2z & 2y \\ -3p & -3r & -3q \end{array} \right| \)</p>
+<p>b) Calcula \( \left| \begin{array}{rrr} x & a-3p & -2a \\ y & b-3q & -2b \\ z & c-3r & -2c \end{array} \right| \)</p><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Solución" /></div><div class="feedback js-feedback js-hidden"><div class="exe-layout-2-cols exe-clear" style="font-family: Arial, sans-serif; color: #333;">
+<div style="border: 1px solid #ddd; padding: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+<h4 style="border-bottom: 2px solid #9c27b0; padding-bottom: 10px; color: #7b1fa2;">a) Cálculo del primer determinante</h4>
+<p>Determinante a calcular:</p>
+<p style="text-align: center;">\( D_1 = \left| \begin{array}{rrr} a & c & b \\ 2x & 2z & 2y \\ -3p & -3r & -3q \end{array} \right| \)</p>
+<p><strong>Paso 1: Sacar factores comunes de las filas</strong></p>
+<ul style="list-style-type: disc; margin-left: 20px;">
+<li>
+<p>Sacamos el <strong>2</strong> de la segunda fila.</p>
+</li>
+<li>
+<p>Sacamos el <strong>-3</strong> de la tercera fila.</p>
+</li>
+</ul>
+<p style="text-align: center;">\( D_1 = 2 \cdot (-3) \cdot \left| \begin{array}{rrr} a & c & b \\ x & z & y \\ p & r & q \end{array} \right| = -6 \cdot \left| \begin{array}{rrr} a & c & b \\ x & z & y \\ p & r & q \end{array} \right| \)</p>
+<p><strong>Paso 2: Intercambiar Columnas y Filas</strong></p>
+<ul style="list-style-type: disc; margin-left: 20px;">
+<li>
+<p>Intercambiamos columna 2 y 3 (el determinante cambia de signo): \( C_2 \leftrightarrow C_3 \).</p>
+</li>
+<li>
+<p>Intercambiamos fila 2 y 3 (para poner p,q,r en medio): \( F_2 \leftrightarrow F_3 \).</p>
+</li>
+</ul>
+<p>Como hacemos dos cambios, multiplicamos por \((-1)\) y luego por \((-1)\), es decir, el signo se mantiene.</p>
+<p style="text-align: center;">\( D_1 = -6 \cdot (-1) \cdot (-1) \cdot \left| \begin{array}{rrr} a & b & c \\ p & q & r \\ x & y & z \end{array} \right| \)</p>
+<p><strong>Resultado final:</strong></p>
+<p style="text-align: center; font-weight: bold; color: #6a1b9a;">\( D_1 = -6 \cdot ( -2 ) = 12 \)</p>
+<hr style="border: 0; border-top: 1px dashed #ccc; margin: 20px 0;" />
+<h4 style="border-bottom: 2px solid #9c27b0; padding-bottom: 10px; color: #7b1fa2;">b) Cálculo del segundo determinante</h4>
+<p>Determinante a calcular:</p>
+<p style="text-align: center;">\( D_2 = \left| \begin{array}{rrr} x & a-3p & -2a \\ y & b-3q & -2b \\ z & c-3r & -2c \end{array} \right| \)</p>
+<p><strong>Paso 1: Transponer (El valor no cambia)</strong></p>
+<p>Para verlo más claro como el original, escribimos la transpuesta (cambiamos filas por columnas):</p>
+<p style="text-align: center;">\( D_2 = \left| \begin{array}{rrr} x & y & z \\ a-3p & b-3q & c-3r \\ -2a & -2b & -2c \end{array} \right| \)</p>
+<p><strong>Paso 2: Simplificar Fila 3 y Separar Fila 2</strong></p>
+<ul style="list-style-type: disc; margin-left: 20px;">
+<li>
+<p>Sacamos factor común <strong>-2</strong> de la Fila 3.</p>
+</li>
+<li>
+<p>La Fila 2 es una resta. Separamos el determinante en dos.</p>
+</li>
+</ul>
+<p style="text-align: center;">\( = -2 \cdot \left[ \left| \begin{array}{rrr} x & y & z \\ a & b & c \\ a & b & c \end{array} \right| + \left| \begin{array}{rrr} x & y & z \\ -3p & -3q & -3r \\ a & b & c \end{array} \right| \right] \)</p>
+<p>El primer determinante es <strong>0</strong> porque tiene dos filas iguales (F2 y F3).</p>
+<p><strong>Paso 3: Resolver el restante</strong></p>
+<p>Nos queda: \( -2 \cdot \left| \begin{array}{rrr} x & y & z \\ -3p & -3q & -3r \\ a & b & c \end{array} \right| \)</p>
+<p>Sacamos el <strong>-3</strong> de la Fila 2:</p>
+<p style="text-align: center;">\( = -2 \cdot (-3) \cdot \left| \begin{array}{rrr} x & y & z \\ p & q & r \\ a & b & c \end{array} \right| = 6 \cdot \left| \begin{array}{rrr} x & y & z \\ p & q & r \\ a & b & c \end{array} \right| \)</p>
+<p>Intercambiamos Fila 1 y Fila 3 para tener el orden original (multiplicamos por -1):</p>
+<p style="text-align: center;">\( = 6 \cdot (-1) \cdot \underbrace{\left| \begin{array}{rrr} a & b & c \\ p & q & r \\ x & y & z \end{array} \right|}_{-2} \)</p>
+<p><strong>Resultado final:</strong></p>
+<p style="text-align: center; font-weight: bold; color: #6a1b9a;">\( D_2 = -6 \cdot (-2) = 12 \)</p>
+</div>
+</div>
+<p>Para ver la solución de emestrada pulsa en la imagen <a href="../content/resources/MII-T1-2022_3.pdf" target="_blank" rel="noopener"><img src="../content/resources/emestrada.png" alt="" width="183" height="70" style="vertical-align: middle;" /></a></p></div>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../index.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/2023.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense" class="cc cc-by-sa"> <p> <span class="license-label">Licencia: </span><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="license">Creative Commons: Reconocimiento - compartir igual 4.0</a></p>
+</div>
+</div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>
